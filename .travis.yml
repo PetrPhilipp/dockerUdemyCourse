@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "dockerTutorial"
-  env: "Dockertutorial"
+  env: "Dockertutorial-env"
   bucket_name: "elasticbeanstalk-us-east-1-645677211427"
   bucket_path: "dockerTutorial"
   on:
